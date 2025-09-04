@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Untitled</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Professor Shalini | Portfolio</title>
+
+  <style>
+
+    * {
+
+      margin: 0;
+
+      padding: 0;
+
+      box-sizing: border-box;
+
+      font-family: Arial, sans-serif;
+
+    }
+
+    body {
+
+      background-color: #f9f9f9;
+
+      color: #333;
+
+      line-height: 1.6;
+
+    }
+
+    header {
+
+      background: #4CAF50;
+
+      color: white;
+
+      padding: 20px 0;
+
+      text-align: center;
+
+    }
+
+    header h1 {
+
+      font-size: 2.5rem;
+
+    }
+
+    nav {
+
+      background: #333;
+
+      padding: 10px;
+
+      text-align: center;
+
+    }
+
+    nav a {
+
+      color: white;
+
+      margin: 0 15px;
+
+      text-decoration: none;
+
+      font-weight: bold;
+
+    }
+
+    nav a:hover {
+
+      color: #4CAF50;
+
+    }
+
+    section {
+
+      padding: 40px;
+
+      max-width: 900px;
+
+      margin: auto;
+
+    }
+
+    h2 {
+
+      color: #4CAF50;
+
+      margin-bottom: 15px;
+
+      font-size: 1.8rem;
+
+    }
+
+    .card {
+
+      background: white;
+
+      padding: 20px;
+
+      margin: 15px 0;
+
+      border-radius: 8px;
+
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+    }
+
+    footer {
+
+      background: #333;
+
+      color: white;
+
+      text-align: center;
+
+      padding: 15px;
+
+      margin-top: 30px;
+
+    }
+
+    /* Simple Scroll Animation */
+
+    .fade-in {
+
+      opacity: 0;
+
+      transform: translateY(20px);
+
+      transition: all 0.8s ease-in-out;
+
+    }
+
+    .fade-in.show {
+
+      opacity: 1;
+
+      transform: translateY(0);
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1>Professor Shalini</h1>
+
+    <p>Assistant Professor | Researcher | Mentor</p>
+
+  </header>
+
+  <nav>
+
+    <a href="#about">About</a>
+
+    <a href="#education">Education</a>
+
+    <a href="#research">Research</a>
+
+    <a href="#publications">Publications</a>
+
+    <a href="#teaching">Teaching</a>
+
+    <a href="#contact">Contact</a>
+
+  </nav>
+
+  <section id="about" class="fade-in">
+
+    <h2>About Me</h2>
+
+    <div class="card">
+
+      <p>Hello! I am <strong>Shalini</strong>, an Assistant Professor passionate about teaching, research, and innovation. My expertise lies in computer science and emerging technologies. I believe in empowering students through interactive and practical learning.</p>
+
+    </div>
+
+  </section>
+
+  <section id="education" class="fade-in">
+
+    <h2>Education</h2>
+
+    <div class="card">
+
+      <ul>
+
+        <li>Ph.D. in Computer Science – XYZ University</li>
+
+        <li>M.Tech in Information Technology – ABC Institute</li>
+
+        <li>B.Tech in Computer Science – DEF College</li>
+
+      </ul>
+
+    </div>
+
+  </section>
+
+  <section id="research" class="fade-in">
+
+    <h2>Research Interests</h2>
+
+    <div class="card">
+
+      <p>My research focuses on:</p>
+
+      <ul>
+
+        <li>Artificial Intelligence & Machine Learning</li>
+
+        <li>Data Science & Big Data Analytics</li>
+
+        <li>Cloud Computing</li>
+
+        <li>Cybersecurity</li>
+
+      </ul>
+
+    </div>
+
+  </section>
+
+  <section id="publications" class="fade-in">
+
+    <h2>Publications</h2>
+
+    <div class="card">
+
+      <ul>
+
+        <li>Shalini, S. (2023). Advances in Machine Learning Algorithms. *International Journal of Computer Science*.</li>
+
+        <li>Shalini, S. (2022). Data Security in Cloud Platforms. *Journal of Cybersecurity Research*.</li>
+
+        <li>Shalini, S. (2021). Applications of AI in Healthcare. *AI Research Journal*.</li>
+
+      </ul>
+
+    </div>
+
+  </section>
+
+  <section id="teaching" class="fade-in">
+
+    <h2>Teaching</h2>
+
+    <div class="card">
+
+      <p>I have taught the following courses:</p>
+
+      <ul>
+
+        <li>Introduction to Programming</li>
+
+        <li>Database Management Systems</li>
+
+        <li>Artificial Intelligence</li>
+
+        <li>Web Development</li>
+
+      </ul>
+
+    </div>
+
+  </section>
+
+  <section id="contact" class="fade-in">
+
+    <h2>Contact</h2>
+
+    <div class="card">
+
+      <p>Email: <a href="mailto:shalini.professor@example.com">shalini.professor@example.com</a></p>
+
+      <p>LinkedIn: <a href="#">linkedin.com/in/shalini</a></p>
+
+      <p>Google Scholar: <a href="#">scholar.google.com/shalini</a></p>
+
+    </div>
+
+  </section>
+
+  <footer>
+
+    <p>&copy; 2025 Professor Shalini. All rights reserved.</p>
+
+  </footer>
+
+  <script>
+
+    // Fade-in effect when scrolling
+
+    const faders = document.querySelectorAll('.fade-in');
+
+    function showOnScroll() {
+
+      const triggerBottom = window.innerHeight * 0.85;
+
+      faders.forEach(fade => {
+
+        const fadeTop = fade.getBoundingClientRect().top;
+
+        if (fadeTop < triggerBottom) {
+
+          fade.classList.add('show');
+
+        } else {
+
+          fade.classList.remove('show');
+
+        }
+
+      });
+
+    }
+
+    window.addEventListener('scroll', showOnScroll);
+
+    window.addEventListener('load', showOnScroll);
+
+  </script>
+
+</body>
+<!-- partial -->
+  
+</body>
+</html>
